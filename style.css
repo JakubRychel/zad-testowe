@@ -1,0 +1,189 @@
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 210px;
+}
+
+@font-face {
+	font-family: gothamblack;
+	src: url(fonts/gothamblack.otf);
+}
+@font-face {
+	font-family: gothambold;
+	src: url(fonts/gothambold.otf);
+}
+@font-face {
+	font-family: gothambook;
+	src: url(fonts/gothambook.otf);
+}
+@font-face {
+	font-family: gothamlight;
+	src: url(fonts/gothamlight.otf);
+}
+
+.bialy { color: white; }
+.czarny { color: black; }
+.czerwony { color: red; }
+.zolty { color: #ffef3a; }
+.ciemny1 { color: #363337; }
+.ciemny2 { color: #2c2423; }
+.ciemny3 { color: #1a171b; }
+.szary { color: #9f9f9f; }
+
+.naglowek {
+	font-family: gothamblack;
+	font-size: 46px;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+
+.chmurka1 {
+	font-family: gothambold;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.chmurka2 {
+	font-family: gothamlight;
+	font-size: 26px;
+	text-transform: uppercase;
+}
+
+.rabaty1 {
+	padding-left: 15px;
+	font-family: gothamlight;
+	font-size: 21.77px;
+	text-transform: uppercase;
+}
+
+.rabaty2 {
+	font-family: gothamlight;
+	font-size: 185px;
+	letter-spacing: -0.04em;
+	line-height: 0.85em;
+}
+
+.rabaty2::after {
+	font-family: gothambook;
+	font-size: 108.85px;
+	vertical-align: top;
+	line-height: 1em;
+	content: "%";
+}
+
+.zegar1 {
+	font-family: gothamlight;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.zegar2 {
+	font-family: gothambold;
+	font-size: 54px;
+}
+
+.zegar3 {
+	font-family: gothambook;
+	font-size: 54px;
+}
+
+.zegar4 {
+	font-family: gothambold;
+	font-size: 18.76px;
+	text-transform: uppercase;
+}
+
+#pojemnik {
+	width: 1560px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#baner {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 1360px;
+	height: 300px;
+	background-color: #ea2423;
+	position: relative;
+	padding-left: 85px;
+	padding-right: 85px;
+	background-image: url(img/tlo-zegar.png);
+	background-repeat: no-repeat;
+	background-position: 62px 11px;
+}
+
+#naglowek {
+	height: 100%;
+	width: 555px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#chmurka {
+	background-color: black;
+	position: absolute;
+	left: 315px;
+	top: 40px;
+	height: 85px;
+	line-height: 85px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#chmurka::after {
+	width: 0;
+	height: 0;
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 85px;
+	border-left: 13.5px solid black;
+	border-top: 6.5px solid black;
+	border-right: 13.5px solid transparent;
+	border-bottom: 6.5px solid transparent;
+	content: "";
+}
+
+#pieczec {
+	background-image: url(img/dostawa-gratis.png);
+	background-repeat: no-repeat;
+	width: 120px;
+	height: 108px;
+	position: absolute;
+	left: 452px;
+	top: 192px;
+}
+
+#rabaty {
+	height: 100%;
+	width: 370px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#odliczanie {
+	height: 184px;
+	width: 429px;
+	border: 3px solid white;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.zegar {
+	display: flex;
+	justify-content: center;
+}
+
+.zegarelement {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 5px;
+	padding-right: 5px;
+}
