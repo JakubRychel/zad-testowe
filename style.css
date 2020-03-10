@@ -93,6 +93,64 @@ body {
 	text-transform: uppercase;
 }
 
+.belka1 {
+	font-family: gothambook;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.belka2 {
+	font-family: gothambold;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.belka3 {
+	font-family: gothambook;
+	font-size: 14px;
+}
+
+.ikona {
+	padding-right: 10px;
+	vertical-align: text-bottom;
+}
+
+.ilosc {
+	font-family: gothambook;
+	font-size: 13px;
+}
+
+.oszczedzasz1 {
+	font-family: gothambook;
+	font-size: 15px;
+}
+
+.oszczedzasz2 {
+	font-family: gothambold;
+	font-size: 15px;
+}
+
+.cena1 {
+	font-family: gothambold;
+	font-size: 20px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.cena2 {
+	padding-left: 10px;
+	font-family: gothambook;
+	font-size: 14px;
+	line-height: 40px;
+	text-decoration: line-through #d6d6d6;
+	vertical-align: middle;
+}
+
+.nazwa {
+	font-family: gothambook;
+	font-size: 13px;
+}
+
 #pojemnik {
 	width: 1560px;
 	margin-left: auto;
@@ -186,4 +244,82 @@ body {
 	align-items: center;
 	padding-left: 5px;
 	padding-right: 5px;
+}
+
+#belka {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 1530px;
+	height: 110px;
+	line-height: 110px;
+}
+
+#belkalewa {
+	width: 50%;
+	text-align: left;
+}
+
+#belkaprawa {
+	width: 50%;
+	text-align: right;
+}
+
+#zawartosc {
+	display: flex;
+	width: 1560px;
+	flex-wrap: wrap;
+}
+
+.produkt {
+	width: 360px;
+	height: 460px;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.produktnaglowek {
+	height: 40px;
+	display: flex;
+}
+
+.produktilosc {
+	width: 179px;
+	height: 39px;
+	line-height: 38px;
+	border-left: 1px solid #ebebeb;
+	border-top: 1px solid #ebebeb;
+	text-align: center;
+}
+
+.produktoszczedzasz {
+	width: 178px;
+	height: 38px;
+	line-height: 38px;
+	border: 1px solid red;
+	text-align: center;
+}
+
+.produktzdjecie {
+	width: 358px;
+	height: 320px;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.produktopis {
+	width: 334px;
+	height: 99px;
+	padding-left: 24px;
+	border-left: 1px solid #ebebeb;
+	border-right: 1px solid #ebebeb;
+	border-bottom: 1px solid #ebebeb;
 }
